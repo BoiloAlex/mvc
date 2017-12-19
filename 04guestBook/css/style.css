@@ -1,0 +1,59 @@
+.container {
+    max-width: 800px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.comments {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.comments li {
+    margin-bottom: 20px;
+}
+
+.addComment {
+    display: block;
+    font-size: 14px;
+}
+
+.addComment input,
+.addComment textarea {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.addComment input[type=submit] {
+    text-align: center;
+}
+.paging {
+    letter-spacing: normal;
+    text-align: center;
+    margin: 15px 0 ;
+    padding: 0;
+}
+.paging li{
+    display: inline-block;
+}
+.paging li a,
+.paging li.active{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+}
+.paging li a:hover{
+    background: #eee;
+}
+.paging li.active{
+    background: #eee;
+}

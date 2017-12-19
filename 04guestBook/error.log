@@ -1,0 +1,21 @@
+[19-Dec-2017 15:21:35 Europe/Moscow] PHP Warning:  include(paging.php): failed to open stream: No such file or directory in D:\OpenServer\domains\project\04guestBook\template.php on line 15
+[19-Dec-2017 15:21:35 Europe/Moscow] PHP Stack trace:
+[19-Dec-2017 15:21:35 Europe/Moscow] PHP   1. {main}() D:\OpenServer\domains\project\04guestBook\index.php:0
+[19-Dec-2017 15:21:35 Europe/Moscow] PHP   2. include() D:\OpenServer\domains\project\04guestBook\index.php:25
+[19-Dec-2017 15:21:35 Europe/Moscow] PHP Warning:  include(): Failed opening 'paging.php' for inclusion (include_path='.;d:/openserver/modules/php/PHP-5.6;d:/openserver/modules/php/PHP-5.6/PEAR/pear') in D:\OpenServer\domains\project\04guestBook\template.php on line 15
+[19-Dec-2017 15:21:35 Europe/Moscow] PHP Stack trace:
+[19-Dec-2017 15:21:35 Europe/Moscow] PHP   1. {main}() D:\OpenServer\domains\project\04guestBook\index.php:0
+[19-Dec-2017 15:21:35 Europe/Moscow] PHP   2. include() D:\OpenServer\domains\project\04guestBook\index.php:25
+[19-Dec-2017 15:22:10 Europe/Moscow] PHP Warning:  include(./paging.php): failed to open stream: No such file or directory in D:\OpenServer\domains\project\04guestBook\template.php on line 15
+[19-Dec-2017 15:22:10 Europe/Moscow] PHP Stack trace:
+[19-Dec-2017 15:22:10 Europe/Moscow] PHP   1. {main}() D:\OpenServer\domains\project\04guestBook\index.php:0
+[19-Dec-2017 15:22:10 Europe/Moscow] PHP   2. include() D:\OpenServer\domains\project\04guestBook\index.php:25
+[19-Dec-2017 15:22:10 Europe/Moscow] PHP Warning:  include(): Failed opening './paging.php' for inclusion (include_path='.;d:/openserver/modules/php/PHP-5.6;d:/openserver/modules/php/PHP-5.6/PEAR/pear') in D:\OpenServer\domains\project\04guestBook\template.php on line 15
+[19-Dec-2017 15:22:10 Europe/Moscow] PHP Stack trace:
+[19-Dec-2017 15:22:10 Europe/Moscow] PHP   1. {main}() D:\OpenServer\domains\project\04guestBook\index.php:0
+[19-Dec-2017 15:22:10 Europe/Moscow] PHP   2. include() D:\OpenServer\domains\project\04guestBook\index.php:25
+[19-Dec-2017 15:22:22 Europe/Moscow] PHP Notice:  Undefined variable: active in D:\OpenServer\domains\project\04guestBook\templates\paging.php on line 15
+[19-Dec-2017 15:22:22 Europe/Moscow] PHP Stack trace:
+[19-Dec-2017 15:22:22 Europe/Moscow] PHP   1. {main}() D:\OpenServer\domains\project\04guestBook\index.php:0
+[19-Dec-2017 15:22:22 Europe/Moscow] PHP   2. include() D:\OpenServer\domains\project\04guestBook\index.php:25
+[19-Dec-2017 15:22:22 Europe/Moscow] PHP   3. include() D:\OpenServer\domains\project\04guestBook\template.php:15
